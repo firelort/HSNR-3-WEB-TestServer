@@ -5,9 +5,7 @@ This repo contains all files needed for set-up of the python webserver.
 ## Software required
 
 1. Python 3.5 or higher
-
 ..* Linux: apt-get install python3
-
 ..* Windows: (please see)
 
 2. cherrpy (for webserver programming)
