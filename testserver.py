@@ -27,7 +27,6 @@ def main():
 # suppress traceback-info
     cherrypy.config.update({'request.show_tracebacks':False})
 # Start server
-    cherrypy.server.socket_host = '0.0.0.0'
     cherrypy.engine.start()
     cherrypy.engine.block()
 #--------------------------------------
