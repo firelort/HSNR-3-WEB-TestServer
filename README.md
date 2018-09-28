@@ -13,10 +13,10 @@ This repo contains all files needed for the test set-up of the python webserver,
 
 ## Software required
 1. Python 3.5 or higher
-    - Linux: "sudo apt-get install python3"
+    - Linux: `sudo apt-get install python3`
     - Windows: Following soon!
 2. cherrpy (for webserver programming)
-    - Linux: "sudo apt-get install python3-pip && pip3 install CherryPy"
+    - Linux: `sudo apt-get install python3-pip && pip3 install CherryPy`
     - Windows: Following soon!
 3. Browser of your choice
     - Recommended by the professor is "FireFox" with the Addon "Web Developer Tool".
@@ -52,7 +52,7 @@ This repo contains all files needed for the test set-up of the python webserver,
 1. Head to your folder, where the content and the app folder are located.
 2. Run the testserver&#46;py with `python3 testserver.py` in the terminal
 3. Open the brwoser of your choice.
-4. Head to [127.0.0.1:8080](http://127.0,0.1:8080)
+4. Head to [127.0.0.1:8080](http://127.0.0.1:8080)
 5. There you should see the following: `Stellen Sie eine Anfrage an den Testserver: Anfrage`
 6. If you clicked on `Anfrage`, a new page should open where you can see the installed cherrypy version.
 7. If everything has been successful so far, you can view the requests from your browser. The requests will be displayed in the terminal.
